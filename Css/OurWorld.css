@@ -1,0 +1,44 @@
+body, html {
+    margin: 0;
+    padding: 0;
+   background-color: black;
+   
+}
+* {
+    box-sizing: border-box;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    width: 100%;
+    grid-gap: 4.5rem 1rem;
+    padding:8rem 1rem 6rem;
+    
+}
+
+.rowcontent{
+    display: flex;
+    flex-direction: column;
+}
+
+.rowcontent > img {
+    height: 100%;
+    width: 100%;
+}
+
+.first-line {
+    color: whitesmoke;
+    font-family: Calibri;
+    font-size: calc(12.42105px + .31579vw);;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.second-line {
+    color: #777777;
+    margin: 0;
+    font-family: Calibri;
+    font-size: 15px;
+    text-transform: capitalize;
+}
