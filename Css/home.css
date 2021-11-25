@@ -131,12 +131,12 @@ html,body {
     position: absolute;
     bottom: 50%;
     padding-left: 25%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto', Courier, monospace;
 }
 .header-description p{
     color: rgb(255, 255, 255);
     font-size: 80px;
-    font-family: 'Noto Serif Display', serif;
+    font-family: 'Roboto', serif;
     position: absolute;
     bottom: 5%;
 }
@@ -165,21 +165,31 @@ html,body {
 }
 
 .text-content{
-    font-size: 18px;
+    font-size: 22px;
     padding-bottom: 200px;
+    position: relative;
+    justify-content: space-between;
 }
 .welcome-text{
     margin: 0;
     font-size: 50px;
     font-weight: normal;
-    font-family: 'Noto Serif Display', serif;
+    font-family: 'Roboto', serif;
+    display: block;
+    text-align: start;
+    position: relative;
+    transform: translate(0px 0 px);
 }
 
 .ourworld-text {
     font-size: 40px;
     font-weight: lighter;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Roboto', Courier, monospace;
     letter-spacing: 1px;
+    display: block;
+    text-align: start;
+    position: relative;
+    transform: translate(0px 0 px);
 }
 
 .text-content p{
@@ -229,9 +239,9 @@ html,body {
     float: left;
 }
 .banner-arrows {
-    padding-top: 3%;
-    padding-right: 6%;
-    float: right;
+    height :8%;
+    margin: 3vw 5vw; 
+    display: flex;
 }
 .photobanner {
     position: relative;
@@ -294,17 +304,17 @@ html,body {
 .black-box{
     padding-left: 50%;
     margin-top: 9vw;
-    height: 100%;
+    height: 160%;
     width: 100%;
 }
 .black-box-left {
     background-color: black;
-    height: 30vw;
+    height: 40vw;
     padding: 2vw;
 }
 .black-box-right img {
-    width: 50%;
-    height: 28%;
+    width: 70%;
+    height: 38%;
     margin-top: -33vw;
     margin-left: 5vw;
     padding-left: 20vw;
@@ -395,14 +405,16 @@ html,body {
 }
 
 .last-section-images {
-    width: 33.33%;
+    width:100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .last-section-images img {
     width: 100%;
-    height: 100%;
+    height: 110%;
+    
 }
 .last-section-images h2{
     font-weight: normal;
@@ -414,7 +426,7 @@ html,body {
 }
 .last-section-images span {
     position: absolute;
-    margin-top: 35vh;
+    margin-top: 37vh;
     margin-left: 14vw;
     font-size: 5rem;
     color: whitesmoke;

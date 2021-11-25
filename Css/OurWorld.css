@@ -27,6 +27,7 @@ body, html {
     width: 100%;
 }
 
+
 .first-line {
     color: whitesmoke;
     font-family: Calibri;
@@ -41,4 +42,13 @@ body, html {
     font-family: Calibri;
     font-size: 15px;
     text-transform: capitalize;
+}
+.header-bottom{
+    margin-left:50px;
+    padding-left: 8em;
+}
+
+.header-bottom > span {
+    font-size: calc(10px + 1vw);
+    color: whitesmoke;
 }
