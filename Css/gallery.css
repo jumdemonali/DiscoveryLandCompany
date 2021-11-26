@@ -10,12 +10,12 @@ html,body{
 
 .main-header{
     background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7383/jael-rodriguez-AkF5NT0sZy8-unsplash-1-1_210301_200939_35d31212c7a2d4dccdff99afa3f88af5.jpg");
-    background-size: cover; 
-    background-position: center;
-    height: 60vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    position: absolute;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+    height: 100%;
 }
 
 .title{
@@ -30,6 +30,7 @@ html,body{
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     width: 100%;
+    height: 100%;
 }
 
 .gallery-item{

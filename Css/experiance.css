@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid green; */
+}
+
+/* Css for header part: it contains video, navbar and text "Discover your work" */
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.navbar-container {
+    display: flex;
+    position: relative;
+    bottom: 90%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.logo-text1 {
+    font-size: 2em;
+}
+
+.logo-text2 {
+    font-size: 0.8em;
+}
+
+.navLink {
+    display: flex;
+    font-size: 1.2em;
+}
+
+.nav-item {
+    margin-right: 35px;
+    margin-top: 8px;
+}
+
+.sometext {
+    position: relative;
+    bottom: 65%;
+    left: 25%;
+    max-width: 25%;
+    font-size: 80px;
+}
+
+.navlink-anchor {
+    color: white;
+    text-decoration: none;
+}
+
+.navlink-anchor:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.logo-navlink:hover{
+    text-decoration: none;
+}
+
+.sections-container {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.intro {
+    padding: 0 15%;
+    padding-top: 7%;
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+    color: #111111;
+}
+
+.white-section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 5% 0;
+}
+
+.white-section-text {
+    width: 50%;
+    color: black;
+    padding: 10%;
+}
+
+
+
