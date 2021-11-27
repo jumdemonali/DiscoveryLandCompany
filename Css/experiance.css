@@ -1,6 +1,63 @@
 * {
     box-sizing: border-box;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.title{
+    color: whitesmoke;
+    font-size: 70px;
+    padding: 12vw 0 3vw 25vw;
+    font-weight:300;
+    font-family:'Arial Narrow Bold';
+}
+
+.second-title{
+    margin-top: -1vw;
+}
+
+.header-bottom{
+    display: flex;
+    flex-direction: row;
+    padding: 10vw 8vw;
+    justify-content: space-between;
+}
+
+.header-bottom-left{
+    font-size: calc(10px + 1vw);
+    color: whitesmoke;
+}
+
+.section-one{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section-one > span{
+    text-align: center;
+    color: #111;
+    font-size:38px;
+    font-family: font-garamond;
+    font-weight: lighter;
+    margin-bottom: -0.5vw;
+}
 
 body {
     margin: 0;
